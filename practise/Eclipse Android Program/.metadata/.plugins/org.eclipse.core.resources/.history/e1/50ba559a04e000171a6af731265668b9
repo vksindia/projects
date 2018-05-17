@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.disable.MainActivity" >
+
+    <RadioGroup android:id="@+id/testRadioGroup"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" >
+       <RadioButton
+            android:text="Radio 1"
+            android:id="@+id/radio1"
+            />
+        <RadioButton
+            android:text="Radio 2"
+            android:id="@+id/radio2" />
+ </RadioGroup>
+<Button android:id="@+id/enableButton"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Set isEnabled"/>
+<Button android:id="@+id/backgroundColorButton"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Change Background Color"/>
+
+</RelativeLayout>

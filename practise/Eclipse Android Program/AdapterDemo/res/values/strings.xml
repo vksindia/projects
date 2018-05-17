@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdapterDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="animals_names"> 
+   <item>Cat</item>
+        <item>Lion</item>
+         <item>Tiger</item>
+          <item>Monkey</item>
+           <item>Elephant</item>
+            <item>Dog</item>
+</string-array>
+
+   
+</resources>

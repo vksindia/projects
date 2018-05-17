@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbarStyle="insideInset"
+android:fadeScrollbars="true"
+android:scrollbarSize="10dip"
+android:fitsSystemWindows="true" 
+  android:background="@drawable/a1">
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+  >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:text="7 Wonders In World."
+    android:textColor="#000000"
+    android:textSize="40sp" />
+
+<HorizontalScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbarStyle="insideInset"
+android:fadeScrollbars="true"
+android:scrollbarSize="10dip"
+android:fitsSystemWindows="true"   >
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="horizontal" >
+<ImageView
+android:src="@drawable/img1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/img2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/img3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/img4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center" />
+<ImageView
+android:src="@drawable/img5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center" />
+<ImageView
+android:src="@drawable/img6"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center" />
+<ImageView
+android:src="@drawable/img7"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+</LinearLayout>
+</HorizontalScrollView>
+
+</LinearLayout>
+</ScrollView>

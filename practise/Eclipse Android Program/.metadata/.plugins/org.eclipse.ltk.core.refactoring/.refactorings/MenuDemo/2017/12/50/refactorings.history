@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;MenuDemo/res/layout/activity_folder.xml&apos; to &apos;activity_menu.xml&apos;" description="Rename resource &apos;activity_folder.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/activity_folder.xml" name="activity_menu.xml" stamp="1512994707860" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;MenuDemo/res/menu/folder.xml&apos; to &apos;menu.xml&apos;" description="Rename resource &apos;folder.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/menu/folder.xml" name="menu.xml" stamp="1512994928448" updateReferences="true"/>
+</session>

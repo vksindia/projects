@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.radionbuttondemo.RadioActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:text="How was today&apos;s seminar?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <RadioGroup
+        android:id="@+id/rgOpinion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+    
+      
+
+    <RadioButton
+        android:id="@+id/radiobtnexclnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Excellent" />
+
+    <RadioButton
+        android:id="@+id/radiobtngood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radiobtnexclnt"
+        android:layout_below="@+id/radiobtnexclnt"
+        android:layout_marginTop="22dp"
+        android:text="Good" />
+
+    <RadioButton
+        android:id="@+id/radiobtnavg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radiobtngood"
+        android:layout_centerVertical="true"
+        android:text="Average" />
+
+    <RadioButton
+        android:id="@+id/radiobtnpoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiobtnavg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="poor" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton1"
+        android:layout_below="@+id/radioButton1"
+        android:layout_marginTop="43dp"
+        android:text="Submit" />
+      </RadioGroup>
+
+</RelativeLayout>

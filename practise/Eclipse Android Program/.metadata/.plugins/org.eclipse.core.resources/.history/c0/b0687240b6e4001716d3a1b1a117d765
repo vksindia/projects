@@ -1,0 +1,42 @@
+package com.example.checkboxdemo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.LinearLayout;
+
+public class DynamicCheckBoxDemoActivity extends Activity {
+	 LinearLayout linearlayout;
+	 CheckBox checkBox;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_dynamic_check_box_demo);
+		linearlayout = (LinearLayout) findViewById(R.id.ss); 
+		
+		ArrayList<String> array=new ArrayList<String>(); 
+		array.add("OS");
+		array.add("Software Engineering");
+		array.add("PDS");
+		array.add("HMI");
+		array.add("DBMS");
+
+       for(int i=0;i<array.size();i++)
+		{
+    	   CheckBox checkbox=new CheckBox(this);
+    	   checkbox.setId(i);
+    	   checkbox.setText(array.get(i));
+		}
+	}
+}

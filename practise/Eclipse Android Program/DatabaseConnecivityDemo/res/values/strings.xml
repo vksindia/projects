@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DatabaseConnecivityDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_insert">InsertActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="title_activity_delete">DeleteActivity</string>
+    <string name="title_activity_display">DisplayActivity</string>
+
+</resources>

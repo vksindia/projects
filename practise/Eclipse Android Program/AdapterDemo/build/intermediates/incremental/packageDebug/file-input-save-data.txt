@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Mon Dec 25 11:19:15 IST 2017
+2.base=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_
+5.file=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_adapter.xml
+5.set=ANDROID_RESOURCE
+3.base=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_
+6.file=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\adapter.xml
+2.set=ANDROID_RESOURCE
+4.base=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1325795dd52e206a7283de9b7469a472123e5a2e
+7.file=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+7.set=ANDROID_RESOURCE
+count=8
+0.file=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\ic_launcher.png
+5.base=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_
+4.set=DEX
+6.base=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_
+1.file=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b88ef611398168113be00d6e00e4ee84f4b033a4\\classes.dex
+1.set=DEX
+7.base=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_
+2.file=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+6.set=ANDROID_RESOURCE
+0.base=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_
+3.file=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_list_view.xml
+3.set=ANDROID_RESOURCE
+1.base=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b88ef611398168113be00d6e00e4ee84f4b033a4
+4.file=D\:\\projects\\Android Program\\AdapterDemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1325795dd52e206a7283de9b7469a472123e5a2e\\classes.dex
+0.set=ANDROID_RESOURCE

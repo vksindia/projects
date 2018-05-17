@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.listenerdemo1.OnFocusChangeActivity&apos; to &apos;OnTextChangeActivity&apos;&#x0D;&#x0A;- Original project: &apos;ListenerDemo1&apos;&#x0D;&#x0A;- Original element: &apos;com.example.listenerdemo1.OnFocusChangeActivity&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.listenerdemo1.OnTextChangeActivity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OnFocusChangeActivity&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.example.listenerdemo1{OnFocusChangeActivity.java[OnFocusChangeActivity" matchStrategy="1" name="OnTextChangeActivity" qualified="false" references="true" similarDeclarations="false" stamp="1513150419824" textual="false" version="1.0"/>
+</session>

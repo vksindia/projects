@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\projects\Android Program\AdapterDemo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="D:\projects\Android Program\AdapterDemo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1325795dd52e206a7283de9b7469a472123e5a2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\Android Program\AdapterDemo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="974dc8a7e8fd10338eaf5c79e520b50b4e13bfa8">
+        <dex dex="D:\projects\Android Program\AdapterDemo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b88ef611398168113be00d6e00e4ee84f4b033a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\Android Program\AdapterDemo\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="D:\projects\Android Program\AdapterDemo\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_cb82f34eba4139c298fc3d33f77f3700ec359b2a\classes.dex" />
+    </item>
+
+</items>

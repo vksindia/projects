@@ -1,0 +1,18 @@
+<college>
+   <Teacher>
+       <id>1001</id>
+		<name>poonam</name>
+		<Qualification>B.E</Qualification>
+    	<Teching_Subject> OS </Teching_Subject>
+    	<Designation>H.O.D</Designation>
+   </Teacher>
+   
+   <Teacher>
+         <id>1002</id>
+		<name>priya</name>
+		<Qualification>M.E</Qualification>
+        <Teching_Subject> PDS </Teching_Subject>
+   </Teacher>
+   
+   
+</college>

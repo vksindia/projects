@@ -1,0 +1,55 @@
+package RecursiveFun_loop;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class WhileLoopExample 
+{
+	public static void main(String[] args) 
+	{
+	String reverse="";
+	int cnt=0;
+	Scanner sc=new Scanner(System.in);
+	
+    System.out.println("Enter String");
+    String name=sc.nextLine();
+    
+    int count=name.length()-1;
+    
+	  /*  while(count>=0)
+	    {
+	    	reverse=reverse+name.charAt(count);
+	    	count--;
+	    	cnt++;
+	    }	
+	    */
+    // System.out.println("Reverse of  String: "+name+" is :"+reverse+" In "+cnt+" loops");
+    
+    //new logic
+    
+    char temp;
+  
+       char[] charArray=name.toCharArray();
+       int flen =name.length();
+       int cnt1=flen-1;
+	    for(int i = 0 ; i < flen/2; i++)
+	    {
+	    	temp = charArray[i];
+	    	charArray[i]=charArray[cnt1];
+	    	charArray[cnt1]=temp; 
+	    	cnt1--;
+	    	cnt++;
+	    }
+	    
+	  for (int i = 0 ; i < charArray.length; i++)
+	  {
+		  reverse=reverse+charArray[i];
+		 
+	  }
+		
+	 
+	}
+	
+}
+
+

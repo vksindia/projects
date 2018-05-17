@@ -1,0 +1,95 @@
+import java.util.Scanner;
+
+
+public class ArrayOperation {
+	 public static void main(String[] args) 
+	    {
+		
+	        int no, pos, x;
+	        Scanner s = new Scanner(System.in);
+	        System.out.print("Enter no. of elements you want in array:");
+	         no = s.nextInt();
+	         
+	        int arrays[] = new int[no+1 ];
+	        System.out.println("Enter all the elements:");
+	        for(int i = 0; i < no; i++)
+	        {
+	            arrays[i] = s.nextInt();
+	        }
+	        System.out.println(" 1.Insert\n 2.Delete \n 3.Search");
+	        System.out.println("Enter your choice:");
+	        
+	       int choice=s.nextInt();
+	       
+	        switch(choice)
+	        {
+	        case 1:     System.out.print("Enter the position where you want to insert element:");
+				        pos = s.nextInt();
+				        
+				        System.out.print("Enter the element you want to insert:");
+				        x = s.nextInt();
+				        
+				        for(int i = (no); i >= (pos); i--)
+				        {
+				        	arrays[i+1] = arrays[i];
+				        }
+				        
+				        arrays[pos-1] = x;
+				        
+				        
+				        System.out.print("After inserting:");
+				        for(int i = 0; i < no+(pos-no); i++)
+				        {
+				            System.out.println(arrays[i]);
+				        }
+	                   break;
+	                   
+	        case 2: 
+		        int  del, count=0;
+		        
+		        System.out.print("Enter Element to be Delete : ");
+		        del = s.nextInt();
+		        
+		        for(int i=0; i<no; i++)
+		        {
+		            if(arrays[i] == del)
+		            {
+		                for(int j=i; j<(no-1); j++)
+		                {
+		                	arrays[j] = arrays[j+1];
+		                }
+		                count++;
+		                break;
+		            }
+		        }
+		        if(count==0)
+		        {
+		            System.out.print("Element Not Found..!!");
+		        }
+		        else
+		        {
+		            System.out.print("Element Deleted Successfully..!!");
+		            System.out.print("\nNow the New Array is :\n");
+		            for(int i=0; i<(no-1); i++)
+		            {
+		                System.out.print(arrays[i]+ " ");
+		            }
+		        }
+		        break;
+	        case 3:
+	        	System.out.println("Enter the element to search..");
+	        	int search=s.nextInt();
+	        	for(int i=0;i<arrays.length;i++)
+	            {
+	            	if(search==arrays[i])
+	            	{
+	            		System.out.println("Element is found at location "+i);
+	            		
+	            	}
+	            }
+	        break;
+	        }
+	        s.close();
+	    }
+	}
+

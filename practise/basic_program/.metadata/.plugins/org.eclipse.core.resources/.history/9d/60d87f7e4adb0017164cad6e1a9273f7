@@ -1,0 +1,46 @@
+package com.example.addition;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class AdditionActivity extends Activity {
+
+   
+    EditText firstNumber;
+    EditText secondNumber;
+    TextView addResult;
+    Button btnAdd;
+    
+    firstNumber = (EditText)findViewById(R.id.txtNumber1);
+    secondNumber = (EditText)findViewById(R.id.txtNumber2);
+    addResult = (TextView)findViewById(R.id.txtResult);
+    btnAdd = (Button)findViewById(R.id.btnAdd);
+
+    double num1,num2,sum;
+    btnAdd.setOnClickListener(new OnClickListener() {   
+        public void onClick(View v) {
+        	 num1 = Double.parseDouble(firstNumber.getText().toString());
+             num2 = Double.parseDouble(secondNumber.getText().toString());
+             sum = num1 + num2;
+             addResult.setText(Double.toString(sum));
+        }
+    });
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_addition);
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.addition, menu);
+        return true;
+    }
+    
+}
